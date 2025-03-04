@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delta Prestige.</title>
+
+    <!-- SEO -->
+    <meta property="og:title" content="Delta Prestige" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo/favicon.jpg" sizes="16x16" />
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Fancy Box CDN -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <!-- EmailJS CDN -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/mail.js"></script>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+
+    <!-- Custom CSS & JS  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <script defer src="js/script.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="css/slide-to-submit.css" />
+
+    <script
+      src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
+      defer=""></script>
+    <script src="js/slide-to-submit.js" defer></script>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#main-navbar"
+    data-bs-root-margin="0px 0px -50%"
+    data-bs-smooth-scroll="true"
+    class="scrollspy"
+    tabindex="0"
+    data-offset="1">
+    <!-- Header Starts  -->
+    <header class="fixed-top shadow-sm">
+      <nav
+        class="navbar navbar-expand-lg mx-auto"
+        style="background-color: #065663"
+        id="main-navbar">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="img/logo/logo.png"
+              alt="Logo"
+              height="60px"
+              style="padding-left: 10%" />
+          </a>
+
+          <a
+            href="tel:+910000000000"
+            class="mobileview"
+            style="margin-top: 0 !important">
+            <!-- <img
+          src="img/extras/call-icon.gif"
+          alt="phone-img"
+          class="gif-img"
+          width="50px" /> -->
+            <i class="fa-solid fa-phone fs-2 me-4 fa-beat head_call_btn"></i>
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#slider_section">
+                  <i class="fa-solid fa-house nav-icon"></i>
+                  <span class="d-sm-inline"> Home </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#overview_section">
+                  <i class="fa-solid fa-coins nav-icon"></i>
+                  <span class="d-sm-inline"> Overview </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery_section">
+                  <i class="fa-solid fa-images nav-icon"></i>
+                  <span class="d-sm-inline"> Gallery </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#configuration_section">
+                  <i class="fa-solid fa-sliders nav-icon"></i>
+                  <span class="d-sm-inline"> Configuration </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#amenities_section">
+                  <i class="fa-solid fa-wifi nav-icon"></i>
+                  <span class="d-sm-inline"> Amenities </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_section">
+                  <i class="fa-solid fa-user nav-icon"></i>
+                  <span class="d-sm-inline"> Site Visit </span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#location_section">
+                  <i class="fa-solid fa-map-location nav-icon"></i>
+                  <span class="d-sm-inline"> Location </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Ends  -->
+    <main>
+      <!-- Slider Section -->
+      <section id="slider_section">
+        <!--  Slider -->
+        <div
+          id="carousel-Indicators"
+          class="carousel slide desktop-slider"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100 banner1"
+                width="100%"
+                src="img/banners/desktop_banner1.jpg"
+                alt="Banner1" />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 banner2"
+                width="100%"
+                src="img/banners/desktop_banner2.jpg"
+                alt="Banner2" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-Indicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-Indicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Slider Section Ends -->
+
+      <!-- Overview Section  -->
+      <section id="overview_section" class="container p-4 mt-3">
+        <h2 class="section-heading text-center text-uppercase pt-3">
+          Welcome To Delta Prestige.
+        </h2>
+
+        <div class="row mt-4 justify-content-center text-center">
+          <div class="col-12 col-md-8 mt-2">
+            <!-- <p class="overview-para mt-3"></p> -->
+
+            <div class="overview-para mt-3">
+              <p>
+                Delta Prestige, a landmark residential project by Balaji Group,
+                redefines luxury living in Panvel with its premium Ground + 14
+                storeyed tower, offering spacious 2 BHK, 3 BHK, and 5 BHK
+                combinations. Strategically located near Khandeshwar Station, it
+                provides seamless connectivity to Sion-Panvel Highway, JNPT,
+                upcoming metro lines, and Navi Mumbai-Pune Hyperloop. Built on a
+                6000 sq. mt. CIDCO tender plot, the project boasts ultra-premium
+                amenities such as valet parking, smart access cards, a car spa,
+                EV charging, concierge services, and 3-tier security with smart
+                door locks and cameras. With proximity to top schools,
+                hospitals, shopping malls, and business hubs, Delta Prestige
+                ensures a perfect blend of luxury, convenience, and future-ready
+                infrastructure.The project features a grand double-height lobby,
+                five lifts per floor, and spacious layouts designed for ultimate
+                comfort. With its elite amenities and prime location, Delta
+                Prestige sets a new benchmark for luxury living in Panvel.
+              </p>
+            </div>
+
+            <!--  -->
+            <button
+              class="btn btn-dark download_btn2"
+              data-bs-toggle="modal"
+              data-bs-target="#popupModal">
+              <img
+                class="schedule_btn_img"
+                loading="lazy"
+                alt="DLF Andheri"
+                src="./img/extras/downloadnew.gif" />
+              Download Brochure
+            </button>
+          </div>
+          <div class="col-12 col-md-4 mt-2 form_section">
+            <div class="text-center">
+              <h3 class="section-heading text-white">CONTACT US</h3>
+              <!-- Form -->
+              <div class="enquire-section">
+                <div class="container">
+                  <form id="contact-form" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name" class="form-label">Name</label>
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name"
+                        placeholder="Name"
+                        autocomplete="off"
+                        required />
+                    </div>
+                    <div class="mb-3">
+                      <label for="user_email" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+                    <div class="mb-3">
+                      <label for="contact_number" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        id="contact_number"
+                        name="contact_number"
+                        pattern="[0-9]{10}"
+                        placeholder="Phone Number"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button
+                      type="submit"
+                      class="btn btn-primary submit-btn w-100">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Overview Section Ends -->
+
+      <!-- gallery -->
+      <section id="gallery_section" class="py-3">
+        <h2 class="section-heading text-center text-uppercase pt-3">gallery</h2>
+
+        <div class="section-content">
+          <div class="container">
+            <div id="gallery">
+              <figure>
+                <img
+                  src="img/gallery/gallery01.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery01.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery02.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery02.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery03.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery03.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery04.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery04.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery05.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery05.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery06.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery06.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery07.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery07.jpg" />
+              </figure>
+
+              <figure>
+                <img
+                  src="img/gallery/gallery08.jpg"
+                  class="img-fluid"
+                  data-fancybox="gallery"
+                  data-src="img/gallery/gallery08.jpg" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- gallery ends -->
+
+      <!-- Configuration Section -->
+      <section id="configuration_section" class="container p-4 mt-3 mb-3">
+        <div class="container">
+          <div class="config-block">
+            <h2 class="text-center section-heading wow">Configuration</h2>
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-3 col-xs-12">
+                <div class="config-inner">
+                  <h5>2 BHK</h5>
+                  <!-- p>RERA carpet area - 402 Sq.ft.(37 Sq.m)<br>Deck Area- 24 Sq.ft.(2.23 Sq.m.)</p> -->
+                  <div
+                    class="config-price"
+                    data-bs-toggle="modal"
+                    data-bs-target="#popupModal">
+                    <a href="javascript:void(0)" class="pricepop">
+                      ₹ 1.35 Cr Onwards*
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-xs-12">
+                <div class="config-inner">
+                  <h5>3 BHK</h5>
+                  <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
+                  <div
+                    class="config-price"
+                    data-bs-toggle="modal"
+                    data-bs-target="#popupModal">
+                    <a href="javascript:void(0)" class="pricepop">
+                      ₹ 1.82 Cr Onwards*
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-xs-12">
+                <div class="config-inner">
+                  <h5>5 BHK</h5>
+                  <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
+                  <div
+                    class="config-price"
+                    data-bs-toggle="modal"
+                    data-bs-target="#popupModal">
+                    <a href="javascript:void(0)" class="pricepop">
+                      Request Price
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Amenities  Section  -->
+      <section id="amenities_section" class="mt-5">
+        <div>
+          <h3 class="section-heading pb-3">Amenities</h3>
+          <!-- <h5 class="sub-heading text-center">REQUIRED :- TAGLINE</h5> -->
+        </div>
+
+        <div class="container-fluid">
+          <div class="amenities_section">
+            <figure class="snip1113">
+              <img src="img/amenities/ev_car.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>EV <span> Charging</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/garden.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>garden <span> area</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/banquet.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Banquet <span> Hall</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/gym.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Indoor <span>Gym </span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/inddorGames.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Indoor <span> Games</span></h3>
+              </figcaption>
+            </figure>
+
+            <figure class="snip1113">
+              <img src="img/amenities/cricket.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>cricket <span> Court</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/pool.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Swimming <span> Pool</span></h3>
+              </figcaption>
+            </figure>
+            <figure class="snip1113">
+              <img src="img/amenities/jogging.jpg" alt="pr-sample1" />
+              <figcaption>
+                <h3>Jogging <span> track</span></h3>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- Amenities Section Ends -->
+
+      <!-- About Section -->
+      <section id="about_section" class="container-fluid p-4 mt-3">
+        <div>
+          <h2 class="section-heading">Site Visit</h2>
+        </div>
+        <div class="about_overlay pt-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6 about-para-container mt-2">
+                <div class="container virtual-visit">
+                  <div
+                    class="bg-image d-flex align-items-center text-white text-center">
+                    <div class="tour-img">
+                      <div class="overlay-info">
+                        <i
+                          class="fa-solid fa-circle-play play-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#popupModal"></i>
+                        <h3 class="fs-1">Virtual Visit</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 about-para-container mt-2">
+                <div class="container virtual-visit">
+                  <div
+                    class="bg-image bg_img d-flex align-items-center text-white text-center">
+                    <div class="tour-img">
+                      <div class="overlay-info">
+                        <i
+                          class="fa-solid fa-circle-play play-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#popupModal"></i>
+                        <h3 class="fs-1">360° View</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location Section -->
+      <section id="location_section" class="container p-4 mb-3">
+        <div>
+          <h2 class="section-heading">NEARBY LOCATIONS</h2>
+        </div>
+
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col-12 col-lg-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.3073407099364!2d73.10037877466354!3d19.006174054161967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9ec6460ab1b%3A0xeea4d783ba1be48!2sDelta%20Prestige!5e0!3m2!1sen!2sin!4v1741007864962!5m2!1sen!2sin"
+                width="100%"
+                height="400px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div id="accordion">
+                <h3>Connectivity</h3>
+                <div>
+                  <ul class="location_features">
+                    <li>Khandeshwar Station</li>
+                    <li>Sion-Panvel Highway & JNPT Road</li>
+                    <li>Kalamboli Junction</li>
+                    <li>Alibaug-Virar Corridor</li>
+                    <li>Panvel Railway Junction Expansion</li>
+                  </ul>
+                </div>
+                <h3>Schools & Educational Institutes:</h3>
+                <div>
+                  <ul class="location_features">
+                    <li>St. Joseph’s High School</li>
+                    <li>DAV Public School</li>
+                    <li>Pillai’s International School & College</li>
+                    <li>Amity University</li>
+                  </ul>
+                </div>
+                <h3>Hospitals & Healthcare:</h3>
+                <div>
+                  <ul class="location_features">
+                    <li>MGM Hospital</li>
+                    <li>Lifeline Hospital</li>
+                    <li>Panacea Hospital</li>
+                  </ul>
+                </div>
+                <h3>Shopping & Entertainment:</h3>
+                <div>
+                  <ul class="location_features">
+                    <li>Orion Mall</li>
+                    <li>Seawoods Grand Central Mall</li>
+                    <li>Inox & PVR Cinemas</li>
+                    <li>Navi Mumbai IT & SEZ Parks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Location Section Ends -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-center text-white">
+        <div class="d-flex justify-content-center">
+          <!-- <div class="qrcode">
+                <img src="img/qr/qr1.jpg" class="m-2" />
+              </div> -->
+        </div>
+
+        <div class="">
+          <small>
+            <style>
+              .newlist {
+                list-style: none;
+                line-height: 25px;
+                padding-left: 22px;
+                text-align: center;
+              }
+              .newlist li:before {
+                content: "✓";
+                font-weight: 800;
+                margin-right: 10px;
+                font-size: 13px;
+                margin-left: -22px;
+              }
+            </style>
+            <ul class="newlist">
+              <li>
+                Project Registered under Government of India RERA Act 2016
+              </li>
+              <li>RERA Project Registration No:- . . . . . . . . . .</li>
+              <li>
+                Government RERA Authorised Advertiser's:- . . . . . . . . . .,
+                Registration No:- . . . . . . . . . .
+              </li>
+              <li><b>Site Address:</b> . . . . . . . . . .</li>
+            </ul>
+          </small>
+        </div>
+        <div>
+          <div>
+            <span>
+              Disclaimer :This website is managed by . . . . . . . . . . Our
+              Rera No. is . . . . . . . . . .. We are an authorised marketing
+              partner for this project. The information provided on this website
+              is intended exclusively for informational purposes. This Website
+              Is Not An Official Site And It Belongs To The Authorized Marketing
+              Partner. All rights reserved. The content, design, and information
+              on this website are protected by copyright and other intellectual
+              property rights. Any unauthorized use or reproduction of the
+              content may violate applicable laws.
+            </span>
+            <span id="dots20" style="display: inline"></span>
+            <span id="more20" style="display: none">
+              <span>
+                For accurate and up-to-date information regarding services,
+                pricing, availability, and any other details, it is recommended
+                to contact us directly through the provided contact information
+                on this website. Thank you for visiting our website.
+              </span>
+            </span>
+            <br />
+            <span
+              class="read_more2"
+              onclick="toggleContent('dots20','more20', 'myBtn20')"
+              id="myBtn20">
+              Read More
+            </span>
+          </div>
+
+          <!-- <div class="mt-4">
+            <p>
+              <strong>Contact Us at:</strong> Mahaavir Icon, Plot 89 & 90,
+              Sector 15, CBD Belapur, Navi Mumbai 400614.
+            </p>
+          </div> -->
+
+          <p class="pb-4 pt-2">
+            <a
+              href="privacy_policy.html"
+              target="_blank"
+              style="text-decoration: none">
+              Privacy Policy
+            </a>
+            |
+            <a
+              href="termsandcondition.html"
+              target="_blank"
+              style="text-decoration: none">
+              Terms And Conditions
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li
+          class="nav-item ps-1"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <a class="text-decoration-none text-white">
+            <i class="fa-solid fa-taxi nav-icon"> </i> Site Visit
+          </a>
+        </li>
+        <li
+          class="nav-item ps-1"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <a class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Back
+          </a>
+        </li>
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+    <!-- Mobile Footer Fixed Button Ends -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center modal-logo">
+              <img src="img/logo/logo.png" alt="" height="50px" />
+
+              <p class="mt-2">Register Here And Avail The Best Offers!!</p>
+            </div>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name *"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        minlength="10"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        placeholder="Phone Number *"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                      Submit
+                    </button>
+                    <p class="m-2 form_norms">
+                      <span>
+                        Your contact details are safe with us. <br />
+                      </span>
+                      <span> Our team will be in touch with you soon.</span>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
