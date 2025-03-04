@@ -64,6 +64,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet" />
 
+    <!-- owl and lightbox -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
     <!-- Custom CSS & JS  -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/common.css" />
@@ -91,7 +102,7 @@
     <header class="fixed-top shadow-sm">
       <nav
         class="navbar navbar-expand-lg mx-auto"
-        style="background-color: #065663"
+        style="background-color: #292975"
         id="main-navbar">
         <div class="container-fluid">
           <button
@@ -446,47 +457,56 @@
         <div class="container">
           <div class="config-block">
             <h2 class="text-center section-heading wow">Configuration</h2>
-            <div class="row d-flex justify-content-center">
-              <div class="col-lg-3 col-xs-12">
-                <div class="config-inner">
-                  <h5>2 BHK</h5>
-                  <!-- p>RERA carpet area - 402 Sq.ft.(37 Sq.m)<br>Deck Area- 24 Sq.ft.(2.23 Sq.m.)</p> -->
-                  <div
-                    class="config-price"
-                    data-bs-toggle="modal"
-                    data-bs-target="#popupModal">
-                    <a href="javascript:void(0)" class="pricepop">
-                      ₹ 1.35 Cr Onwards*
-                    </a>
-                  </div>
-                </div>
-              </div>
 
-              <div class="col-lg-3 col-xs-12">
-                <div class="config-inner">
-                  <h5>3 BHK</h5>
-                  <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
-                  <div
-                    class="config-price"
-                    data-bs-toggle="modal"
-                    data-bs-target="#popupModal">
-                    <a href="javascript:void(0)" class="pricepop">
-                      ₹ 1.82 Cr Onwards*
-                    </a>
-                  </div>
-                </div>
+            <div class="row">
+              <div class="col-12 col-md-6 overview_img">
+                <img class="img-fluid" src="img/gallery/gallery01.jpg" alt="" />
               </div>
-              <div class="col-lg-3 col-xs-12">
-                <div class="config-inner">
-                  <h5>5 BHK</h5>
-                  <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
-                  <div
-                    class="config-price"
-                    data-bs-toggle="modal"
-                    data-bs-target="#popupModal">
-                    <a href="javascript:void(0)" class="pricepop">
-                      Request Price
-                    </a>
+              <div class="col-12 col-md-6">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-8">
+                    <div class="config-inner">
+                      <h5>2 BHK</h5>
+                      <!-- p>RERA carpet area - 402 Sq.ft.(37 Sq.m)<br>Deck Area- 24 Sq.ft.(2.23 Sq.m.)</p> -->
+                      <div
+                        class="config-price"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <a href="javascript:void(0)" class="pricepop">
+                          ₹ 1.35 Cr Onwards*
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-8">
+                    <div class="config-inner">
+                      <h5>3 BHK</h5>
+                      <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
+                      <div
+                        class="config-price"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <a href="javascript:void(0)" class="pricepop">
+                          ₹ 1.82 Cr Onwards*
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-8">
+                    <div class="config-inner">
+                      <h5>5 BHK</h5>
+                      <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
+                      <div
+                        class="config-price"
+                        data-bs-toggle="modal"
+                        data-bs-target="#popupModal">
+                        <a href="javascript:void(0)" class="pricepop">
+                          Request Price
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -495,11 +515,133 @@
         </div>
       </section>
 
+      <!-- Features Section -->
+      <section id="features_section">
+        <div class="features-overlay">
+          <div class="container">
+            <h2
+              class="section-heading"
+              style="
+                color: #fff;
+                text-align: left;
+                margin-bottom: 10px;
+                margin-top: 10px;
+              ">
+              Unmatched comfort, <br />thoughtfully designed,<br />
+              Royal amenities, <br />
+              redefining refined.
+            </h2>
+            <p class="ame-copy" style="text-align: left">
+              Delta Group presents an extraordinary living experience
+              <br />
+              with world-class amenities designed to redefine urban luxury.
+            </p>
+
+            <!-- Rows -->
+            <div class="container text-white">
+              <div class="row">
+                <!-- Col 1 -->
+                <div class="col-6 col-md-3 features-inner">
+                  <h4>ROOFTOP AMENITIES</h4>
+                  <ul>
+                    <li>Star Gazing Deck</li>
+                    <li>BBQ Lounge</li>
+                    <li>Reflexology Path</li>
+                    <li>Reading Deck</li>
+                    <li>Staging Deck</li>
+                    <li>Hammock Cove</li>
+                    <li>Jacuzzi</li>
+                    <li>Infinity Edge Pool</li>
+                    <li>Tree Plaza</li>
+                  </ul>
+                  <!--  -->
+                  <h4>SPORTS & RECREATION AMENITIES</h4>
+                  <ul>
+                    <li>Indoor Games</li>
+                    <li>Gym + Health Bar</li>
+                    <li>Cricket Pitch</li>
+                    <li>Play Station Consoles</li>
+                    <li>Pool Cafe</li>
+                    <li>Music Room(Musikalay)</li>
+                    <li>Libary with Wifi</li>
+                  </ul>
+                </div>
+                <!-- Col 2 -->
+                <div class="col-6 col-md-3 features-inner">
+                  <!--   -->
+                  <h4 style="padding-top: 15px">PODIUM AMENITIES</h4>
+                  <ul>
+                    <li>Meditation Lawn</li>
+                    <li>Seniors Pavilion</li>
+                    <li>Yoga Deck</li>
+                    <li>Leisure Lawn</li>
+                    <li>Stroll Lawn</li>
+                    <li>Kids Play Area</li>
+                    <li>Sand Pit</li>
+                    <li>Rock Climbing</li>
+                    <li>Jogging Path</li>
+                    <li>Party Lawn</li>
+
+                    <span id="dots2" style="display: inline"></span>
+                    <span id="more2" style="display: none">
+                      <li>Event Deck</li>
+                      <li>Celebration Lawn</li>
+                      <li>Buddha Sculpture</li>
+                      <li>Gazebo</li>
+                      <li>Seating Cove</li>
+                      <li>Workshop Pocket</li>
+                      <li>Cocoon Swings</li>
+                    </span>
+                  </ul>
+                  <button
+                    onclick="toggleContent('dots2','more2', 'myBtn2')"
+                    id="myBtn2">
+                    Read More ...
+                  </button>
+                  <br />
+
+                  <!--  -->
+                </div>
+                <!-- Col 3 -->
+                <div class="col-6 col-md-3 features-inner">
+                  <!--  -->
+                  <h4 style="padding-top: 15px">SMART AMENITIES</h4>
+                  <ul>
+                    <li>Smart Access Card</li>
+                    <li>Smart Door Lock with Door Camera</li>
+                    <li>EV Charging</li>
+                    <li>Concierge Service</li>
+                    <li>Valet Parking</li>
+                  </ul>
+
+                  <!--   -->
+                  <h4 style="padding-top: 15px">
+                    CONVENIENCE & WELLNESS AMENITIES
+                  </h4>
+                  <ul>
+                    <li>Vending Machine</li>
+                    <li>Creche (Baby Sitting)</li>
+                    <li>Car Spa</li>
+                    <li>Loose Sofa Under Trellis</li>
+                    <li>Dininig Set</li>
+                    <li>Changing & Open Shower Block</li>
+                    <li>Floating Path</li>
+                    <li>Planter Bed</li>
+                  </ul>
+
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Amenities  Section  -->
-      <section id="amenities_section" class="mt-5">
+      <section id="amenities_section_id" class="mt-5 container-fluid">
         <div>
           <h3 class="section-heading pb-3">Amenities</h3>
-          <!-- <h5 class="sub-heading text-center">REQUIRED :- TAGLINE</h5> -->
+          <h5 class="sub-heading text-center">REQUIRED :- TAGLINE</h5>
         </div>
 
         <div class="container-fluid">

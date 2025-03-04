@@ -8,7 +8,7 @@
   font-family: "Trajan_Pro_Bold";
 }
 .sub-heading {
-  color: var(--colorSecondary);
+  color: var(--colorTertiary);
   font-family: "Trajan_Pro_Bold";
 }
 @media screen and (max-width: 600px) {
@@ -22,7 +22,7 @@
 
 /* Footer */
 #footer {
-  background-color: var(--colorBlack);
+  background-color: var(--colorPrimary);
   padding: 40px 20px;
 }
 .qrcode {
