@@ -124,7 +124,7 @@
           </a>
 
           <a
-            href="tel:+910000000000"
+            href="tel:+918042300904"
             class="mobileview"
             style="margin-top: 0 !important">
             <!-- <img
@@ -165,15 +165,15 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#amenities_section">
+                <a class="nav-link" href="#amenities_section_id">
                   <i class="fa-solid fa-wifi nav-icon"></i>
                   <span class="d-sm-inline"> Amenities </span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about_section">
-                  <i class="fa-solid fa-user nav-icon"></i>
-                  <span class="d-sm-inline"> Site Visit </span>
+                <a class="nav-link" href="#site_visit">
+                  <i class="fa-solid fa-video nav-icon"></i>
+                  <span class="d-sm-inline"> Virtual Visit </span>
                 </a>
               </li>
 
@@ -250,7 +250,8 @@
       <!-- Overview Section  -->
       <section id="overview_section" class="container p-4 mt-3">
         <h2 class="section-heading text-center text-uppercase pt-3">
-          Welcome To Delta Prestige.
+          Welcome To Delta Prestige. <br />
+          <img src="img/extras/Border.png" height="50px" alt="" />
         </h2>
 
         <div class="row mt-4 justify-content-center text-center">
@@ -279,17 +280,33 @@
             </div>
 
             <!--  -->
-            <button
-              class="btn btn-dark download_btn2"
-              data-bs-toggle="modal"
-              data-bs-target="#popupModal">
-              <img
-                class="schedule_btn_img"
-                loading="lazy"
-                alt="DLF Andheri"
-                src="./img/extras/downloadnew.gif" />
-              Download Brochure
-            </button>
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="highlight_container">
+                  <h3>Ground + 14 Storeyed Tower</h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="highlight_container">
+                  <h3>CIDCO Tender Plot</h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="highlight_container">
+                  <h3>Ultra-Premium Amenities</h3>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="highlight_container">
+                  <h3>Largest 2 BHK in the Vicinity</h3>
+                </div>
+              </div>
+
+              <!-- Add more items as needed -->
+            </div>
           </div>
           <div class="col-12 col-md-4 mt-2 form_section">
             <div class="text-center">
@@ -379,6 +396,10 @@
       <!-- gallery -->
       <section id="gallery_section" class="py-3">
         <h2 class="section-heading text-center text-uppercase pt-3">gallery</h2>
+        <h5 class="sub-heading text-center">
+          Experience Luxury Through Every Frame <br />
+          <img src="img/extras/Border.png" height="50px" alt="" />
+        </h5>
 
         <div class="section-content">
           <div class="container">
@@ -457,14 +478,71 @@
         <div class="container">
           <div class="config-block">
             <h2 class="text-center section-heading wow">Configuration</h2>
-
+            <h5 class="sub-heading text-center">
+              Spacious Homes, Thoughtfully Designed <br />
+              <img src="img/extras/Border.png" height="50px" alt="" />
+            </h5>
             <div class="row">
               <div class="col-12 col-md-6 overview_img">
-                <img class="img-fluid" src="img/gallery/gallery01.jpg" alt="" />
+                <div
+                  id="carousel-Indicators2"
+                  class="carousel slide desktop-slider"
+                  data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-Indicators2"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-Indicators2"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        class="d-block w-100 banner1"
+                        width="100%"
+                        src="img/plans/2bhk-2.jpg.png"
+                        alt="Banner1" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        class="d-block w-100 banner2"
+                        width="100%"
+                        src="img/plans/3bhk-2.jpg.png"
+                        alt="Banner2" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-Indicators2"
+                    data-bs-slide="prev">
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-Indicators2"
+                    data-bs-slide="next">
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
               </div>
               <div class="col-12 col-md-6">
                 <div class="row d-flex justify-content-center">
-                  <div class="col-8">
+                  <div class="col-12 col-md-8">
                     <div class="config-inner">
                       <h5>2 BHK</h5>
                       <!-- p>RERA carpet area - 402 Sq.ft.(37 Sq.m)<br>Deck Area- 24 Sq.ft.(2.23 Sq.m.)</p> -->
@@ -479,7 +557,7 @@
                     </div>
                   </div>
 
-                  <div class="col-8">
+                  <div class="col-12 col-md-8">
                     <div class="config-inner">
                       <h5>3 BHK</h5>
                       <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
@@ -494,7 +572,7 @@
                     </div>
                   </div>
 
-                  <div class="col-8">
+                  <div class="col-12 col-md-8">
                     <div class="config-inner">
                       <h5>5 BHK</h5>
                       <!-- <p>RERA carpet area - 1038-1169 Sq.ft. (96-109 Sq.m.)<br>Deck Area - 24-48 Sq.ft. (2.23-4.46 Sq.m.)</p> -->
@@ -641,7 +719,10 @@
       <section id="amenities_section_id" class="mt-5 container-fluid">
         <div>
           <h3 class="section-heading pb-3">Amenities</h3>
-          <h5 class="sub-heading text-center">REQUIRED :- TAGLINE</h5>
+          <h5 class="sub-heading text-center">
+            Unmatched Luxury, Endless Possibilities <br />
+            <img src="img/extras/Border.png" height="50px" alt="" />
+          </h5>
         </div>
 
         <div class="container-fluid">
@@ -653,15 +734,15 @@
               </figcaption>
             </figure>
             <figure class="snip1113">
-              <img src="img/amenities/garden.jpg" alt="pr-sample1" />
+              <img src="img/amenities/star_watch.jpg" alt="pr-sample1" />
               <figcaption>
-                <h3>garden <span> area</span></h3>
+                <h3>Star <span> Gazing</span></h3>
               </figcaption>
             </figure>
             <figure class="snip1113">
-              <img src="img/amenities/banquet.jpg" alt="pr-sample1" />
+              <img src="img/amenities/yoga.jpg" alt="pr-sample1" />
               <figcaption>
-                <h3>Banquet <span> Hall</span></h3>
+                <h3>Meditation & <span> Yoga </span></h3>
               </figcaption>
             </figure>
             <figure class="snip1113">
@@ -701,9 +782,13 @@
       <!-- Amenities Section Ends -->
 
       <!-- About Section -->
-      <section id="about_section" class="container-fluid p-4 mt-3">
+      <section id="site_visit" class="container-fluid p-4 mt-3">
         <div>
-          <h2 class="section-heading">Site Visit</h2>
+          <h2 class="section-heading">Virtual Site Visit</h2>
+          <h5 class="sub-heading text-center">
+            Explore Your Future Home - Anytime, Anywhere <br />
+            <img src="img/extras/Border.png" height="50px" alt="" />
+          </h5>
         </div>
         <div class="about_overlay pt-3">
           <div class="container">
@@ -718,7 +803,7 @@
                           class="fa-solid fa-circle-play play-btn"
                           data-bs-toggle="modal"
                           data-bs-target="#popupModal"></i>
-                        <h3 class="fs-1">Virtual Visit</h3>
+                        <h3 class="fs-1">Virtual Home Tour</h3>
                       </div>
                     </div>
                   </div>
@@ -750,6 +835,10 @@
       <section id="location_section" class="container p-4 mb-3">
         <div>
           <h2 class="section-heading">NEARBY LOCATIONS</h2>
+          <h5 class="sub-heading text-center">
+            Seamless Connectivity, Prime Convenience <br />
+            <img src="img/extras/Border.png" height="50px" alt="" />
+          </h5>
         </div>
 
         <div class="container">
@@ -814,9 +903,18 @@
     <footer id="footer">
       <div class="container text-center text-white">
         <div class="d-flex justify-content-center">
-          <!-- <div class="qrcode">
-                <img src="img/qr/qr1.jpg" class="m-2" />
-              </div> -->
+          <div class="qrcode">
+            <img src="img/logo/footer logo.png" />
+            <p class="m-0 p-0">
+              Delta Group has been a trailblazer for 40 Year's in the real
+              estate industry, leaving an indelible mark on the landscape of
+              luxury living, with a legacy build on trust, innovation, and
+              excellence. We have over 16 projects currently in various stages
+              of construction, showcasing our ability to manage and execute on a
+              grant scale! Delta Group's Impressive portfolio boasts an
+              astonishing 32 lakhs Sq.ft of delivered project.
+            </p>
+          </div>
         </div>
 
         <div class="">
@@ -840,27 +938,27 @@
               <li>
                 Project Registered under Government of India RERA Act 2016
               </li>
-              <li>RERA Project Registration No:- . . . . . . . . . .</li>
+              <li>RERA Project Registration No:- P52000078574</li>
+
               <li>
-                Government RERA Authorised Advertiser's:- . . . . . . . . . .,
-                Registration No:- . . . . . . . . . .
+                <b>Site Address:</b> Delta Prestige, Plot No. 25, Sector 17,
+                Panvel
               </li>
-              <li><b>Site Address:</b> . . . . . . . . . .</li>
             </ul>
           </small>
         </div>
         <div>
           <div>
             <span>
-              Disclaimer :This website is managed by . . . . . . . . . . Our
-              Rera No. is . . . . . . . . . .. We are an authorised marketing
-              partner for this project. The information provided on this website
-              is intended exclusively for informational purposes. This Website
-              Is Not An Official Site And It Belongs To The Authorized Marketing
-              Partner. All rights reserved. The content, design, and information
-              on this website are protected by copyright and other intellectual
-              property rights. Any unauthorized use or reproduction of the
-              content may violate applicable laws.
+              Disclaimer: The contents of this Marketing ad including
+              photographs, images, designs, plans, specifications, layout,
+              height, dimensions, facilities, vegetation, features and
+              communication are merely an artistic impression and imagination
+              and may not have resemblance to actual project on site. The actual
+              and physical features, amenities and facilities in the Buildings
+              or the premises would be in accordance with plans and
+              specifications approved by the authorities and the agreement for
+              sale to be executed with the Promoter.
             </span>
             <span id="dots20" style="display: inline"></span>
             <span id="more20" style="display: none">
@@ -1050,6 +1148,21 @@
                       <span> Our team will be in touch with you soon.</span>
                     </p>
                   </form>
+                </div>
+
+                <div class="or">or</div>
+
+                <div class="slide-submit poppins-regular poppins-regular">
+                  <button
+                    id="slide-submit-btn"
+                    class="poppins-regular ui-draggable ui-draggable-handle"
+                    style="left: 0px; transition: 100ms linear">
+                    <img
+                      loading="lazy"
+                      alt="Delta Prestige"
+                      src="./img/extras/swipe-arrow.png" />
+                  </button>
+                  <label> Slide to connect on WhatsApp</label>
                 </div>
               </div>
             </div>

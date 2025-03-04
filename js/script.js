@@ -45,3 +45,40 @@ function toggleContent(dotsId, moreTextId, btnId) {
 $(function () {
   $("#accordion").accordion();
 });
+
+$(document).ready(function () {
+  // Initialize Owl Carousel
+  $(".owl-carousel").owlCarousel({
+    items: 3, // Display three items in each column
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsiveClass: true,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+
+  // Initialize Magnific Popup for lightbox
+  $(".lightbox").magnificPopup({
+    type: "image",
+    gallery: {
+      enabled: true,
+    },
+  });
+
+  // Show the carousel after it's initialized
+  $(".owl-carousel").css("display", "block");
+});
+
+// Config
