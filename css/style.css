@@ -585,6 +585,7 @@ span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e {
   /* height: 970px; */
   background-attachment: fixed;
 }
+
 .features-overlay {
   background: #00000070;
   /* height: 970px; */
@@ -607,6 +608,15 @@ span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-e {
   color: var(--colorTertiary) !important;
   margin-bottom: 40px;
   text-transform: uppercase;
+}
+.ame-copy2 {
+  text-transform: uppercase;
+  color: #fff !important;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 2em !important;
+  letter-spacing: 1.1px;
 }
 
 .features-inner h4 {
@@ -750,4 +760,10 @@ img.img-fluid.p-2.scale-up-center {
 .submit-btn:active {
   background-color: var(--colorSecondary) !important;
   border: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .hide_in_mobile {
+    display: none;
+  }
 }

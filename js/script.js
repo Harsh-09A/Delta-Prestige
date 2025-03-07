@@ -81,4 +81,9 @@ $(document).ready(function () {
   $(".owl-carousel").css("display", "block");
 });
 
-// Config
+// Popup Auto
+$(window).ready(function () {
+  setTimeout(function () {
+    $("#popupModal").modal("show");
+  }, 3000);
+});

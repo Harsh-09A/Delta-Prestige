@@ -52,12 +52,15 @@
 .action-footer {
   margin: 0;
   padding: 7px;
-  background-color: var(--colorPrimary);
-  color: var(--colorWhite);
+  background-color: var(--colorTertiary);
+  color: var(--colorPrimary);
   cursor: pointer;
   border-top-left-radius: 1vw;
   border-top-right-radius: 1vw;
   font-size: 0.8em;
+}
+.action-footer a {
+  color: var(--colorPrimary);
 }
 
 .action-footer li {
