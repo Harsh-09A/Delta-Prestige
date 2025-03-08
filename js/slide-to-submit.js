@@ -18,7 +18,7 @@ $(".slide-submit button")
         //   $('.whatsappClickClass').trigger('click');
         //wa.me/+919765277792?text=I'm%20interested%20in%20your%20car%20for%20sale
         https: location.href =
-          "https://wa.me/+919768478650?text=I'm Interested In Delta Prestige Project. Please Send Brochure And Price Details.";
+          "https://wa.me/+918899117040?text=I'm Interested In Delta Prestige Project. Please Send Brochure And Price Details.";
 
         $(this).next().css({ "margin-left": 0 }).text("Launching WhatsApp");
         $(this).draggable("false");
