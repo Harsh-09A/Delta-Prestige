@@ -33,9 +33,24 @@ const handleFormSubmit = async (
     privacy_check: document.getElementById(privacyField).value,
     ip_address: await getIpAddress(),
     website_url: window.location.href,
-    to_email: "sales@deltaprestige.in",
+    to_email: "deltaprestige.panvel@gmail.com",
     company_name: "Delta Prestige",
   };
+
+  // Send CURL
+  const sendToCurl = (templateParams) => {
+    console.log(templateParams);
+    $.ajax({
+      type: "POST",
+      url: "curl.php",
+      data: templateParams, // serializes the form's elements.
+      success: function (data) {
+        console.log(data); // show response from the php script.
+      },
+    });
+  };
+
+  sendToCurl(templateParams);
 
   // Send Form
   emailjs.send("contact_service", "contact_form", templateParams).then(
