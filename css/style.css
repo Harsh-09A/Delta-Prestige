@@ -108,10 +108,10 @@ main {
 
 @media screen and (max-width: 600px) {
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner0001.jpg");
+    content: url("../img/banners/mobile_banner_01.jpg");
   }
   .carousel-item .banner2 {
-    content: url("../img/banners/mobile_banner002.jpg");
+    content: url("../img/banners/mobile_banner_02.jpg");
   }
   main {
     margin-top: 70px;
