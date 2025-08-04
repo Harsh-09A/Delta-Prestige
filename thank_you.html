@@ -16,6 +16,22 @@
       content="Delta Prestige by Balaji Group offers luxury living in Panvel
     with a Ground + 14 tower featuring spacious 2, 3, and 5 BHKs." />
     <meta name="robots" content="index, follow" />
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16942939243"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16942939243');
+</script>
+
+<!-- Event snippet for Lead Form - Delta Prestige conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-16942939243/A_izCLuA_q4aEOv4go8_'});
+</script>
+
 
     <!-- Favicon -->
     <link rel="icon" href="img/logo/favicon.png" sizes="16x16" />
@@ -37,12 +53,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"></script>
 
-    <!-- Jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"></script>
-
     <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
@@ -50,6 +60,14 @@
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+
+    <!-- Fancy Box CDN -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
     <!-- EmailJS CDN -->
     <script
@@ -65,6 +83,25 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/common.css" />
     <script defer src="js/script.js"></script>
+    
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '647182321363728');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=647182321363728&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
   </head>
   <body
     data-bs-spy="scroll"
@@ -74,6 +111,9 @@
     class="scrollspy"
     tabindex="0"
     data-offset="1">
+      <script>
+  fbq('track', 'Lead');
+</script>
     <!-- Header  -->
     <header class="fixed-top shadow-sm">
       <nav
